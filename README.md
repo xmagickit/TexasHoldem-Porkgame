@@ -10,7 +10,6 @@ Made with Unity 2022.3.0f1 LTS
   <ol>
 	  <li><a href="#Introduction">Introduction</a></li>
 	  <li><a href="#GDD">GDD</a></li>
-	  <li><a href="#Team-Members">Team-Members</a></li>
 	  <li><a href="#Dev-Log">Dev-Log</a></li>
 	  <li><a href="#Known-Bugs">Known-Bugs</a></li>
 	  <li><a href="#Videos">Videos</a></li>	
@@ -40,15 +39,6 @@ https://github.com/OzgenKoklu/Velogames_Unity_PokerGame/releases
 ## GDD
 
 https://docs.google.com/document/d/1RrYZFcERAm4OzjKxE57lmc0hMOfWjcYncdkV3LErDXQ/edit?usp=sharing
-
-----------
-
-<!-- Team-Members -->
-## Team-Members: 
-
-Özgen Köklü : https://github.com/OzgenKoklu
-
-Ezgi Keserci : https://github.com/ezgiksrci
 
 ----------
 
