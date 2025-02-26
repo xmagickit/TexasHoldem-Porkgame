@@ -19,8 +19,6 @@ Made with Unity 2022.3.0f1 LTS
 <!-- INTRODUCTION -->
 ## Introduction
 
-A group project assigned by Velo Games.
-
 A classic Texas Hold'em Poker Game made with Unity (with AI bots).
 
 The project includes Firebase integration, which utilizes Authentication for login, Realtime Database for player save data and leaderboards, and Analytics/events for user behavior tracking.
