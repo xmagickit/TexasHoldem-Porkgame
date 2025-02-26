@@ -29,17 +29,6 @@ A classic Texas Hold'em Poker Game made with Unity (with AI bots).
 
 The project includes Firebase integration, which utilizes Authentication for login, Realtime Database for player save data and leaderboards, and Analytics/events for user behavior tracking.
 
-Android builts can be found under releases tab:
-
-https://github.com/OzgenKoklu/Velogames_Unity_PokerGame/releases
-
-----------
-
-<!-- GDD -->
-## GDD
-
-https://docs.google.com/document/d/1RrYZFcERAm4OzjKxE57lmc0hMOfWjcYncdkV3LErDXQ/edit?usp=sharing
-
 ----------
 
 <!-- Dev-Log -->
@@ -69,10 +58,6 @@ We began developing the hand algorithms, starting with a more conventional appro
 
 We then discovered Cactus Kev's algorithm and incorporated the corresponding C# library into our project. This method assigns ranks to hands on a scale from 1 to 7462, with the data correlating hands to these values pre-recorded in a hash table. Some hands may receive the same rank if they are equal in strength. By comparing the hand values of each player, we determine the winner. Additional details about this library are available in the GDD and Acknowledgments.
 
-The old Code for evaluation:
-
-https://github.com/OzgenKoklu/Velogames_Unity_PokerGame/blob/a92c4baef895a47e9fc50958030df9cee6680eed/PokerGame/Assets/Scripts/PokerHandEvaluator.cs
-
 **5) AI bot Action** 
 
 AI bots were designed to act based on their hand strength. First, we evaluate the hand, assigning it a value from 1 to 7462, as mentioned in the earlier paragraph. We then assign a rating such as 'amazing' or 'strong' based on this value. For example, a three of a kind is a pretty good hand that rarely occurs, so it is considered a strong hand in our algorithm.
@@ -90,44 +75,6 @@ Image: Pot split, winner selection, game loop completed. 30.04.2024
 **7) Firebase integration**
   
 Firebase integration was a simple adaptation, yet none of us had any prior experience with this specific API, so it was new for us. We had some knowledge of working with JSON files or other SQL types, so it wasn't entirely unfamiliar. Some documentation we found offered sample methods on how to use functions offered by Firebase. However, some of them did not work due to MonoBehaviour scripting. We had to navigate through with async methods and integrate them with Unity. All in all, in our opinion, it was the most "obscure" part of this project. The reasons being that we don't always understand what goes wrong when things don't work or what goes right when things do work. In typical game development, we generally have these "causal" behaviors we can generally observe, but online is a little different.
-
-**8) Notes on refactoring **
-
-
-
-----------
-
-<!-- Known-Bugs -->
-## Known-Bugs
-
-For known bugs and issues, see "Bugs To Adress" Column in the spreadsheet:
-
-https://docs.google.com/spreadsheets/d/1jQAPprVrJPeO368_9v2G62CslmwMBqhsNotKzJfGaVM/edit?usp=sharing
-
-
-----------
-
-<!-- Videos -->
-## Videos
-
-11.05.2024 - Working in editor: 
-
-[![Youtube Link](https://img.youtube.com/vi/wYx2yHuBuBg/0.jpg)](https://youtu.be/wYx2yHuBuBg)
-
-19.05.2024 - Polished and now has animation & sound - Working in editor.
-
-[![Youtube Link](https://img.youtube.com/vi/dDLQjoOPKK8/0.jpg)](https://youtu.be/dDLQjoOPKK8)
-
-----------
-
-<!-- Project-Management -->
-## Project-Management
-
-Spreadsheet link (up-to-date): https://docs.google.com/spreadsheets/d/1jQAPprVrJPeO368_9v2G62CslmwMBqhsNotKzJfGaVM/
-
-**Image:** Kanban during development: (02.05.2024)
-
-<img src="Media/DevLog/ToDoListV2.PNG" width="900"> 
 
 <!-- Firebase-Integration -->
 ## Firebase-Integration
