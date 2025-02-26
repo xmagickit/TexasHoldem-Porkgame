@@ -9,11 +9,7 @@ Made with Unity 2022.3.0f1 LTS
   # Sections
   <ol>
 	  <li><a href="#Introduction">Introduction</a></li>
-	  <li><a href="#GDD">GDD</a></li>
 	  <li><a href="#Dev-Log">Dev-Log</a></li>
-	  <li><a href="#Known-Bugs">Known-Bugs</a></li>
-	  <li><a href="#Videos">Videos</a></li>	
-	  <li><a href="#Project-Management">Project-Management</a></li>
 	  <li><a href="#Firebase-Integration">Firebase-Integration</a></li>  
 	  <li><a href="#Acknowledgements">Acknowledgements</a></li>
   </ol>
